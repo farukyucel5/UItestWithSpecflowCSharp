@@ -1,0 +1,27 @@
+{
+  "uuid": "2794800e26864b10935c4a7ed1122638",
+  "children": [
+    "48c0a5a0c7844c01b61a35e8a06419e6"
+  ],
+  "befores": [],
+  "afters": [
+    {
+      "name": "AfterScenario [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1690317070664,
+      "stop": 1690317070734
+    }
+  ],
+  "links": [],
+  "start": 1690317067652,
+  "stop": 1690317083662
+}

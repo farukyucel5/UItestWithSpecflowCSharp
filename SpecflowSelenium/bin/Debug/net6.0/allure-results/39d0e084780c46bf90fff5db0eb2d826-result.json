@@ -1,0 +1,161 @@
+{
+  "uuid": "9eb33e38e4394574a730bfabe92a1dda",
+  "historyId": "ordering the prices by the dropdown menu-1457608411",
+  "fullName": "ordering the prices by the dropdown menu",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "FARUK"
+    },
+    {
+      "name": "feature",
+      "value": "HomePagewithProblemUser"
+    }
+  ],
+  "links": [],
+  "name": "ordering the prices by the dropdown menu",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Argument 'url' cannot be null. (Parameter 'value')",
+    "trace": "System.ArgumentNullException: Argument 'url' cannot be null. (Parameter 'value')\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at SwagLabAssessment2.StepDefinitions.SwagLabsStepDefinitions.GivenOpenTheWebsite() in C:\\ZLenovo\\Asoftware\\SpecflowSelenium\\SpecflowSelenium\\StepDefinitions\\SwagLabsStepDefinitions.cs:line 24\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  open the website",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1690357602532,
+      "stop": 1690357603771
+    },
+    {
+      "name": "And  enter your username \"problem_user\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1690357603771,
+      "stop": 1690357603771
+    },
+    {
+      "name": "And  enter the password \"secret_sauce\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1690357603771,
+      "stop": 1690357603771
+    },
+    {
+      "name": "Then  click the \"loginBtn\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1690357603771,
+      "stop": 1690357603771
+    },
+    {
+      "name": "Then  verify the step \"loggedIn\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1690357603771,
+      "stop": 1690357603771
+    },
+    {
+      "name": "And  just wait a second",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1690357603771,
+      "stop": 1690357603771
+    },
+    {
+      "name": "And  select an option of sorting product by \"hilo\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1690357603771,
+      "stop": 1690357603771
+    },
+    {
+      "name": "Then  verify the step \"hilo\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1690357603771,
+      "stop": 1690357603771
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "value",
+      "value": "hilo"
+    }
+  ],
+  "start": 1690357602532,
+  "stop": 1690357603771
+}
