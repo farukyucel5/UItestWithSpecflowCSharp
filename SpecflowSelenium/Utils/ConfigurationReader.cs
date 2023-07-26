@@ -12,7 +12,7 @@ namespace SpecflowSelenium.Utils
 
         public ConfigurationReader(string filePath)
         {
-            properties = new Dictionary<string, string>();
+            properties = new();
 
             // Read the properties from the file and store them in the dictionary
             foreach (string line in File.ReadAllLines(filePath))
