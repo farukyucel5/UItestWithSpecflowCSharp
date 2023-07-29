@@ -4,7 +4,7 @@ A short summary of the feature
  Background: Common parts
   Given open the website
 
-
+ @critical
  Scenario Outline: login functionality for the correct data 
    And  enter your username "<username>"
    And enter the password "<password>"
@@ -20,7 +20,7 @@ A short summary of the feature
 
 
 
-
+@normal
  Scenario Outline: login functionality with the wrong data
    And  enter your username "<username>"
    And enter the password "<password>"

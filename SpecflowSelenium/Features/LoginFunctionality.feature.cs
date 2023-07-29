@@ -84,13 +84,20 @@ namespace SpecflowSelenium.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("login functionality for the correct data")]
+        [NUnit.Framework.CategoryAttribute("critical")]
         [NUnit.Framework.TestCaseAttribute("standard_user", "secret_sauce", "swaglabs", null)]
         [NUnit.Framework.TestCaseAttribute("locked_out_user", "secret_sauce", "swaglabs", null)]
         [NUnit.Framework.TestCaseAttribute("problem_user", "secret_sauce", "swaglabs", null)]
         [NUnit.Framework.TestCaseAttribute("performance_glitch_user", "secret_sauce", "swaglabs", null)]
         public virtual void LoginFunctionalityForTheCorrectData(string username, string password, string system, string[] exampleTags)
         {
-            string[] tagsOfScenario = exampleTags;
+            string[] @__tags = new string[] {
+                    "critical"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            string[] tagsOfScenario = @__tags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("username", username);
             argumentsOfScenario.Add("password", password);
@@ -137,6 +144,7 @@ namespace SpecflowSelenium.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("login functionality with the wrong data")]
+        [NUnit.Framework.CategoryAttribute("normal")]
         [NUnit.Framework.TestCaseAttribute("standard_user", "123", "swaglabs", null)]
         [NUnit.Framework.TestCaseAttribute("faruk", "secret_sauce", "swaglabs", null)]
         [NUnit.Framework.TestCaseAttribute("", "secret_sauce", "swaglabs", null)]
@@ -155,7 +163,13 @@ namespace SpecflowSelenium.Features
         [NUnit.Framework.TestCaseAttribute("performance_glitch_user", "", "swaglabs", null)]
         public virtual void LoginFunctionalityWithTheWrongData(string username, string password, string system, string[] exampleTags)
         {
-            string[] tagsOfScenario = exampleTags;
+            string[] @__tags = new string[] {
+                    "normal"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            string[] tagsOfScenario = @__tags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("username", username);
             argumentsOfScenario.Add("password", password);
